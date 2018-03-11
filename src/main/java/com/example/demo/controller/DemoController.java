@@ -41,6 +41,6 @@ public class DemoController {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return "MySQL Data: " + map.toString();
+		return "MySQL Data:" + map.toString();
 	}
 }
