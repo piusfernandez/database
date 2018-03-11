@@ -29,7 +29,7 @@ public class DemoController {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return "PostgreSQL Data:" + map.toString();
+		return "PostgreSQL Data: " + map.toString();
 	}
 
 	@RequestMapping(value = "/getMYUser")
