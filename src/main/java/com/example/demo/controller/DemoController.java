@@ -20,6 +20,11 @@ public class DemoController {
 	@Qualifier("mysqlJdbcTemplate")
 	private JdbcTemplate mysqlTemplate;
 
+	/**
+	 * end point to get post gres cities data
+	 * 
+	 * @return
+	 */
 	@RequestMapping(value = "/getPGUser")
 	public String getPGUser() {
 		Map<String, Object> map = new HashMap<String, Object>();
