@@ -37,6 +37,11 @@ public class DemoController {
 		return "PostgreSQL Data: " + map.toString();
 	}
 
+	/**
+	 * end point to get mysql cities data
+	 * 
+	 * @return
+	 */
 	@RequestMapping(value = "/getMYUser")
 	public String getMYUser() {
 		Map<String, Object> map = new HashMap<String, Object>();
